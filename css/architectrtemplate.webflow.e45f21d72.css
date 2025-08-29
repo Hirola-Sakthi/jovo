@@ -4702,6 +4702,10 @@ figcaption {
   max-width: 600px;
 }
 
+.automation-inner-container._600px {
+  max-width: 800px;
+}
+
 .inner-container.center {
   margin-left: auto;
   margin-right: auto;
@@ -6246,8 +6250,23 @@ figcaption {
   align-items: center;
   display: flex;
 }
+
+.automation-header-content-wrapper {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
 @media (max-width: 768px) {
   .home-header-content-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .automation-header-content-wrapper {
     justify-content: space-between;
     align-items: center;
     display: flex;
